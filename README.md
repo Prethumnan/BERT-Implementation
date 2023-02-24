@@ -5,7 +5,7 @@ This project aims to classify Twitter tweets into one of six categories: 'happy'
 The dataset used for this project is a publicly available dataset of Twitter tweets labeled with one of the six categories.
 
 ## Model Architecture and Training
-The BERT model used for this project is a pre-trained model that has been fine-tuned for the specific task of tweet classification. The model was trained on the training dataset for 5 epochs with a learning rate of 2e-5 and a batch size of 32. The model achieved an accuracy of 82% on the test set.
+The BERT model used for this project is a pre-trained model that has been fine-tuned for the specific task of tweet classification. The model was trained on the training dataset for 10 epochs with a learning rate of 2e-5 and a batch size of 32. The model achieved an accuracy of 82% on the test set.
 
 ## How to Improve Model Performance
 Here are some ways to further improve the performance of the model:
