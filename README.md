@@ -2,7 +2,7 @@
 This project aims to classify Twitter tweets into one of six categories: 'happy', 'not-relevant', 'angry', 'disgust', 'sad', and 'surprise'. The model used for this task is a fine-tuned version of the BERT (Bidirectional Encoder Representations from Transformers) model, a powerful deep learning model that has achieved state-of-the-art results in various natural language processing tasks.
 
 ## Dataset
-The dataset used for this project is a publicly available dataset of Twitter tweets labeled with one of the six categories. The dataset contains a total of 20,000 tweets for training and 6,000 tweets for testing.
+The dataset used for this project is a publicly available dataset of Twitter tweets labeled with one of the six categories.
 
 ## Model Architecture and Training
 The BERT model used for this project is a pre-trained model that has been fine-tuned for the specific task of tweet classification. The model was trained on the training dataset for 5 epochs with a learning rate of 2e-5 and a batch size of 32. The model achieved an accuracy of 82% on the test set.
